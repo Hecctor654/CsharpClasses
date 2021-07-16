@@ -10,22 +10,24 @@ namespace CsharpClasses
     {
         static void Main(string[] args)
         {
-            string firstName = "ditto";
-            int age = 1;
-            string b;
-            b = "dhfvcdsgkfv";
+            string plainText = "text";
+            char character = 'f';
+           
+            int wholeNumber = 100;
+            //decimal numbers below
+            float floatingNumber = 12.22f;
+            double doubleNum = 12.21;
+            decimal money = 128.685M;
+
+            //True False data type
+            bool t = true;
+            bool f = false;
 
 
 
-            Console.WriteLine($"There once was a man named {firstName}");
-            Console.WriteLine($"He was {age} years old");
-            firstName = "jose";
-            age = 130;
-            Console.WriteLine($"He really like the name { firstName}");
-            Console.WriteLine($"But didnt like being {age}");
+
+
             Console.ReadLine();
-            Console.ReadLine();
-
         }
     }
 }
