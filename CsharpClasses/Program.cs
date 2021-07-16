@@ -9,17 +9,23 @@ namespace CsharpClasses
     class Program
     {
         static void Main(string[] args)
-        {Console.WriteLine("9");
-            Console.WriteLine("1");
-            Console.WriteLine("2");
-            Console.WriteLine("3");
-            Console.WriteLine("4");
-            Console.WriteLine("5");
-            Console.WriteLine("6");
-            Console.WriteLine("7");
-            Console.WriteLine("8");
-            
+        {
+            string firstName = "ditto";
+            int age = 1;
+            string b;
+            b = "dhfvcdsgkfv";
+
+
+
+            Console.WriteLine($"There once was a man named {firstName}");
+            Console.WriteLine($"He was {age} years old");
+            firstName = "jose";
+            age = 130;
+            Console.WriteLine($"He really like the name { firstName}");
+            Console.WriteLine($"But didnt like being {age}");
             Console.ReadLine();
+            Console.ReadLine();
+
         }
     }
 }
